@@ -1,3 +1,12 @@
+:root {
+  --warna-ungu: 168 85 247;
+  --warna-pink: 236 72 153;
+  --warna-biru: 2 132 199;
+  --wanra-orange: 249 115 22;
+
+  --warna-tema: var(--warna-pink);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

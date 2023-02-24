@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         hijau: "#bada55",
+        tema: "rgb(var(--warna-tema) / <alpha-value>)",
       },
     },
   },

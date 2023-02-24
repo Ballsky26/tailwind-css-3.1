@@ -1,3 +1,11 @@
+:root {
+  --warna-ungu: 168 85 247;
+  --warna-pink: 236 72 153;
+  --warna-biru: 2 132 199;
+  --wanra-orange: 249 115 22;
+  --warna-tema: var(--warna-pink);
+}
+
 /*
 ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
 */
@@ -513,12 +521,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -562,24 +570,12 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-sky-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 132 199 / var(--tw-bg-opacity));
+.bg-tema\/10 {
+  background-color: rgb(var(--warna-tema) / 0.1);
 }
 
-.bg-sky-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.bg-tema\/80 {
+  background-color: rgb(var(--warna-tema) / 0.8);
 }
 
 .px-4 {
@@ -587,14 +583,24 @@ video {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .text-left {
@@ -605,14 +611,14 @@ video {
   text-align: center;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-sm {
@@ -629,14 +635,12 @@ video {
   color: rgb(186 218 85 / var(--tw-text-opacity));
 }
 
-.text-sky-800 {
-  --tw-text-opacity: 1;
-  color: rgb(7 89 133 / var(--tw-text-opacity));
+.text-tema\/100 {
+  color: rgb(var(--warna-tema) / 1);
 }
 
-.text-sky-900 {
-  --tw-text-opacity: 1;
-  color: rgb(12 74 110 / var(--tw-text-opacity));
+.text-tema\/80 {
+  color: rgb(var(--warna-tema) / 0.8);
 }
 
 .text-white {
@@ -669,9 +673,8 @@ video {
   background-color: rgb(186 218 85 / 50%);
 }
 
-.hover\:bg-sky-900:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
+.hover\:bg-tema\/100:hover {
+  background-color: rgb(var(--warna-tema) / 1);
 }
 
 .focus\:outline-none:focus {
@@ -685,9 +688,8 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.focus\:ring-sky-600:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(2 132 199 / var(--tw-ring-opacity));
+.focus\:ring-tema\/60:focus {
+  --tw-ring-color: rgb(var(--warna-tema) / 0.6);
 }
 
 .focus\:ring-offset-2:focus {
